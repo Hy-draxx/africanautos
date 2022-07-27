@@ -20,16 +20,7 @@
   margin-top: 60px;
 }
 span{
-  color: #f4511e;
-}
-
-.sec1{
-  
-  height: 570px;
-}
-.sec2{
-  
-  height: 330px;
+  color: #ff5252;
 }
 
 .mm{
@@ -42,15 +33,11 @@ scroll-behavior: smooth;
 }
 
 .molll{
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
-  font: alegreya;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#gallery{
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
+
 
 
 nav ul a,

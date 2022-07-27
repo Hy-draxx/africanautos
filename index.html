@@ -12,7 +12,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>  
   <link href="css/styleee.css" type="text/css" rel="stylesheet" media="screen,projection"/>  
   <link href="css/slider.css" rel="stylesheet" type="text/css">
-  
+
 </head>
 <body>
   <ul id="nav-mobile" class="sidenav">
@@ -50,7 +50,7 @@
         
         <div class="row center" id="lll">
           
-          <h2 class="blue-text molll">African Automobile S.R.O</h2>
+          <h2 class="red-text text-accent-2 molll">African Automobile S.R.O</h2>
           <h5>Africa's No 1 Car and spare parts dealer</h5>
         </div>
         <div class="row center">
@@ -103,7 +103,7 @@
   
        </div>
        <div class="h34">
-        <a href="#!" class="btn ">Request for a service</a>
+        <a href="#!" class="btn red accent-2">Request for a service</a>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
       <div class="row">
 
         <div class="col s12 m4 ">
-          <div class="card sec1">
+          <div class="card">
             <div class="card-image">
               <img src="./images/benz.jpeg">
               <span class="card-title">Mercedes Benz</span>
@@ -148,7 +148,7 @@
 
 
         <div class="col s12 m4 ">
-          <div class="card sec1">
+          <div class="card">
             <div class="card-image">
               <img src="./images/toyota.jpeg">
               <span class="card-title">Toyota</span>
@@ -176,7 +176,7 @@
 
 
         <div class="col s12 m4 ">
-          <div class="card sec1">
+          <div class="card">
             <div class="card-image">
               <img src="./images/volkswagen.jpeg">
               <span class="card-title">Volkswagen</span>
@@ -203,7 +203,7 @@
       <div class="row ">
 
         <div class="col s12 m4">
-          <div class="card sec2">
+          <div class="card">
             <div class="card-image">
               <img src="./images/honda.jpeg">
               <span class="card-title">Honda</span>
@@ -218,7 +218,7 @@
 
 
         <div class="col s12 m4">
-          <div class="card sec2">
+          <div class="card">
             <div class="card-image">
               <img src="./images/ford.jpeg">
               <span class="card-title">Ford</span>
@@ -232,7 +232,7 @@
 
 
         <div class="col s12 m4">
-          <div class="card sec2">
+          <div class="card">
             <div class="card-image">
               <img src="./images/mazda.jpeg">
               <span class="card-title">Mazda</span>
@@ -249,7 +249,7 @@
     </div>
   </div>
   <div class="h34">
-    <a href="https://wa.link/q6ghdf" class="btn">See all products</a>
+    <a href="https://wa.link/q6ghdf" class="btn red accent-2">See all products</a>
   </div>
 </div>
   
@@ -267,32 +267,43 @@
     <div class="parallax"><img src="./images/ship.jpeg" alt="Unsplashed background img 2"></div>
   </div>
 
-  
+
+  <!-- Form Section -->
 
 
-  <!-- Begin Mailchimp Signup Form -->
-  
   <div class="container">
     <div class="section">
       <div class="row">
-        <h4 class="center"> <span>Contact</span> Us</h4>
-        <P>Do you Want to send us a message? <br> Please fill the form below</P>
-        <form class="frmm" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayadlnd" method="post">
-          <fieldset id="fs-frm-inputs">
-            <label for="full-name"><h6>Name</h6></label>
-            <input type="text" name="name" id="full-name" placeholder="Jane Doe" required="">
-            <label for="email-address"><h6>Email Address</h6></label>
-            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-            <label for="message"><h6>Message</h6></label>
-            <textarea rows="20" cols="10" name="message" id="message" required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-          </fieldset>
-          <center><input type="submit" value="Submit"></center>
+        <h5 class="center"><span>Contact</span> Us</h5>
+        <p>Do you have any complain? or would like to send us a message regarding anything? <br>
+        Please fill the information below</p>
+        <form class="col s12" action="" method="post">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Full Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Message</label>
+            </div>
+          </div>
+          <button class="btn red accent-2 waves-effect waves-light " type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
         </form>
       </div>
     </div>
   </div>
- 
+
+
+
   
 
           <!-- CONTACT US -->
@@ -333,8 +344,6 @@
   <script src="js/init.js"></script>
   <script src="js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
-
   
   
   
